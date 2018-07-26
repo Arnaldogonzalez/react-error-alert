@@ -1,0 +1,134 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.window-info {
+  text-decoration: none;
+  padding: 2em 2em;
+  width: 40%;
+  margin-top: 150px;
+  margin-left: 400px;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.info-container {
+  padding: 15px;
+  margin-bottom: 33px;
+  background-color: #b5e8ff;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+.warning-container {
+  padding: 15px;
+  margin-bottom: 33px;
+  background-color: #fffbc2;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+.error-container {
+  padding: 15px;
+  margin-bottom: 33px;
+  background-color: #ffc7b6;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.success-container {
+  padding: 15px;
+  margin-bottom: 33px;
+  background-color: #cdffcf;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.info {
+  margin-left: 55px;
+  color: #01579b;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.warning {
+  margin-left: 55px;
+  color: #e4af00;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.error {
+  margin-left: 55px;
+  color: #bf360c;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.success {
+  margin-left: 55px;
+  color: #2e7d32;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.info-text {
+  margin-left: 1.5%;
+  color: #008ffd;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.warning-text {
+  margin-left: 1.5%;
+  color: #ffd446;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.error-text {
+  margin-left: 1.5%;
+  color: #ff501b;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.success-text {
+  margin-left: 1.5%;
+  color: #56ad5a;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
